@@ -256,6 +256,7 @@ end
       "onsails/lspkind.nvim",
       "chrisgrieser/cmp-nerdfont",
       "hrsh7th/cmp-calc",
+      "hrsh7th/cmp-nvim-lua",
       "amarakon/nvim-cmp-fonts",
       "roginfarrer/cmp-css-variables"
 
@@ -279,6 +280,7 @@ end
           },
       sources = cmp.config.sources({
         {name="nvim_lsp"},
+        {name="nvim_lua"},
         {name="luasnip"},
         {name="buffer"},
         {name="path"},
