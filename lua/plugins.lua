@@ -18,10 +18,4 @@ require("lazy").setup({
   require "plugin-config.indent-blankline",
   require "plugin-config.mason",
   require "plugin-config.lsp",
-
-
-
-
-
-
 })
