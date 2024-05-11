@@ -1,6 +1,6 @@
 # BlenderBoi Neovim Config
 
-This Config is still work in progress
+This Config is still work in progress, and it will be changed and evolve overtime
 
 Theme:
 
@@ -8,7 +8,39 @@ Theme:
 
 Installed Plugins:
 
-- To be Listed
+  "Comment.nvim"
+  "LuaSnip"
+  "bufferline.nvim"
+  "cmp-buffer"
+  "cmp-calc"
+  "cmp-css-variables"
+  "cmp-nerdfont"
+  "cmp-nvim-lsp"
+  "cmp-path"
+  "cmp_luasnip"
+  "conform.nvim"
+  "dressing.nvim"
+  "friendly-snippets"
+  "indent-blankline.nvim"
+  "lazy.nvim"
+  "lspkind.nvim"
+  "lualine.nvim"
+  "mason-lspconfig.nvim"
+  "mason.nvim"
+  "maximizer.nvim"
+  "neodev.nvim"
+  "nvim-autopairs"
+  "nvim-cmp"
+  "nvim-cmp-fonts"
+  "nvim-lsp-file-operations"
+  "nvim-lspconfig"
+  "nvim-tree.lua"
+  "nvim-treesitter"
+  "nvim-ts-autotag"
+  "nvim-web-devicons"
+  "plenary.nvim"
+  "telescope.nvim"
+  "tokyonight.nvim"
 
 Keymap Remapping:
 
