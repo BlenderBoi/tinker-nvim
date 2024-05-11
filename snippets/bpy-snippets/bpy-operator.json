@@ -1,0 +1,20 @@
+{
+	"operator": {
+		"scope": "python",
+		"prefix": "operator",
+		"body": [
+			"class ${1:ADDON}_OT_${2:SimpleOperator}(bpy.types.Operator):",
+			"\t\"\"\"${3:Tooltip}\"\"\"", 
+			"\tbl_idname = \"${4:addon}.${5:simple_operator}\"",
+			"\tbl_label = \"${6:Simple Operator}\"",
+			"\tbl_options = {'UNDO', 'REGISTER'}\"\n",
+			"\t@classmethod",
+			"\tdef poll(cls, context):",
+			"\t\treturn True\n",
+			"\tdef execute(self, context):",
+			"\t\treturn {'FINISHED'}"
+		],
+		"description": "Operator Template"
+	}
+}
+

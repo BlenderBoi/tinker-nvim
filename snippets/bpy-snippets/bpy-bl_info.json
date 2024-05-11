@@ -1,0 +1,20 @@
+{
+	"bl_info": {
+		"scope": "python",
+		"prefix": "bl_info",
+		"body": [
+			"bl_info = {",
+			"\t\"name\": \"$1\",",
+			"\t\"author\": \"$2\",",
+			"\t\"version\": \"(1, 0, 0)\",",
+			"\t\"blender\": \"(4, 0, 0)\",",
+			"\t\"description\": \"$3\",",
+			"\t\"doc_url\": \"$4\",",
+			"\t\"tracker_url\": \"$5\",",
+			"\t\"category\": \"$6\",",
+			"}"
+		],
+		"description": "BL Info"
+	}
+}
+

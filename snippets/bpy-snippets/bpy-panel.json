@@ -1,0 +1,35 @@
+
+{
+	"properties_panel": {
+		"scope": "python",
+		"prefix": "properties_panel",
+		"body": [
+			"class ${1:ADDON}_PT_${2:SimplePanel}(bpy.types.Operator):",
+			"\t\"\"\"${3:Tooltip}\"\"\"", 
+			"\tbl_idname = \"${1}_PT_${2}\"",
+			"\tbl_space_type= \"${4:PROPERTIES}\"",
+			"\tbl_region_type= \"${5:WINDOW}\"",
+			"\tbl_context= \"${6:object}\"\n",
+			"\tdef draw(self, context):",
+			"\t\tlayout = self.layout"
+        
+		],
+		"description": "Prorperties Panel Template"
+	},
+	"side_panel": {
+		"scope": "python",
+		"prefix": "side_panel",
+		"body": [
+			"class ${1:ADDON}_PT_${2:SimplePanel}(bpy.types.Operator):",
+			"\t\"\"\"${3:Tooltip}\"\"\"", 
+			"\tbl_idname = \"${1}_PT_${2}\"",
+			"\tbl_space_type= \"VIEW_3D\"",
+			"\tbl_region_type= \"UI\"\n",
+			"\tdef draw(self, context):",
+			"\t\tlayout = self.layout"
+        
+		],
+		"description": "Side Panel Template"
+	}
+}
+

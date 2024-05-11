@@ -1,0 +1,28 @@
+{
+  "name": "bpy-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "python"
+        ],
+        "path": "./bpy-bl_info.json"
+      },
+      {
+        "language": [
+          "python"
+        ],
+        "path": "./bpy-operator.json"
+      },
+      {
+        "language": [
+          "python"
+        ],
+        "path": "./bpy-panel.json"
+      }
+    ]
+  }
+}
