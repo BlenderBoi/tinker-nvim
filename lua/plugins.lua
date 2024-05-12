@@ -17,4 +17,6 @@ require("lazy").setup({
 	require("plugin-config.mason"),
 	require("plugin-config.lsp"),
 	require("plugin-config.completion"),
+	require("plugin-config.gitsigns"),
+	require("plugin-config.fugitive"),
 })
