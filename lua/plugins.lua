@@ -19,4 +19,5 @@ require("lazy").setup({
 	require("plugin-config.completion"),
 	require("plugin-config.gitsigns"),
 	require("plugin-config.fugitive"),
+	require("plugin-config.colorizer"),
 })
