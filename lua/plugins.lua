@@ -20,4 +20,5 @@ require("lazy").setup({
 	require("plugin-config.gitsigns"),
 	require("plugin-config.fugitive"),
 	require("plugin-config.colorizer"),
+	require("plugin-config.tmux"),
 })
