@@ -1,8 +1,6 @@
-
 local keymap = vim.keymap
 
-
-local opts = {noremap = true, silent = true}
+local opts = { noremap = true, silent = true }
 
 keymap.set("v", "<", "<gv^", opts)
 keymap.set("v", ">", ">gv^", opts)

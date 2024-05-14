@@ -23,4 +23,5 @@ require("lazy").setup({
 	require("plugin-config.tmux"),
 	require("plugin-config.twilight"),
 	require("plugin-config.glow"),
+	require("plugin-config.zenmode"),
 })
