@@ -21,4 +21,5 @@ require("lazy").setup({
 	require("plugin-config.fugitive"),
 	require("plugin-config.colorizer"),
 	require("plugin-config.tmux"),
+	require("plugin-config.twilight"),
 })
