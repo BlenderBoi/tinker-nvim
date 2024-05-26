@@ -6,7 +6,7 @@ require("lazy").setup({
 	require("plugin-config.colorscheme"),
 	require("plugin-config.dressing"),
 	require("plugin-config.treesitter"),
-	require("plugin-config.bufferline"),
+	-- require("plugin-config.bufferline"),
 	require("plugin-config.formatting"),
 	require("plugin-config.lualine"),
 	require("plugin-config.comment"),
